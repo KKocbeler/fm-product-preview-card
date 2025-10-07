@@ -20,7 +20,7 @@ body {
     font-weight: 500;
     background-color: var(--cream);
     color: var(--grey);
-    margin: 2rem;
+    margin: 1rem;
 }
 
 img {
@@ -45,7 +45,7 @@ img {
     border-radius: .75rem;
     background-color: var(--white);
     overflow: hidden;
-    max-width: 620px;
+    max-width: 350px;
 }
 
 .card-content {
@@ -118,5 +118,6 @@ button::before {
 @media (min-width: 768px) {
     .card {
         grid-template-columns: 1fr 1fr;
+        max-width: 650px;
     }
 }
